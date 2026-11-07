@@ -1,0 +1,28 @@
+{
+  "name": "supergravity",
+  "version": "1.0.0",
+  "description": "Next-Generation Autonomous Multi-Agent Engineering Engine & ACP Runtime",
+  "type": "module",
+  "bin": {
+    "supergravity": "./bin/sg.js",
+    "sg": "./bin/sg.js"
+  },
+  "scripts": {
+    "start": "node --experimental-strip-types src/cli.ts",
+    "acp": "node --experimental-strip-types src/interfaces/acp-server.ts",
+    "web": "node --experimental-strip-types src/interfaces/web-dashboard.ts",
+    "test": "node --test --experimental-strip-types tests/**/*.test.ts"
+  },
+  "keywords": [
+    "ai-agent",
+    "agentic-coding",
+    "antigravity",
+    "acp",
+    "mcp",
+    "autonomous-engineer",
+    "multi-agent"
+  ],
+  "author": "Supergravity Engineering Team",
+  "license": "Apache-2.0"
+}
+

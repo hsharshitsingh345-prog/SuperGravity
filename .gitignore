@@ -1,0 +1,7 @@
+node_modules/
+.supergravity/
+.test_workspace/
+*.log
+.env
+.env.local
+Thumbs.db
